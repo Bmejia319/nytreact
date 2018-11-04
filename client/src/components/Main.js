@@ -3,6 +3,7 @@ import Saved from "./Saved";
 import Search from "./Search";
 import Results from "./Results";
 import API from "../utils/api";
+import "../style.css";
 
 class Main extends Component {
 
@@ -108,8 +109,8 @@ class Main extends Component {
         <div className="container">
           {/* Jumbotron */}
           <div className="jumbotron">
-            <h1 className="text-center"><strong>React: New York Times Article Search</strong></h1>
-            <h2 className="text-center">Search for articles and save interesting articles.</h2>
+            <h1 className="text-center"><strong>New York Times Article Search</strong></h1>
+            <h2 className="text-center">Search and save your most interesting articles!</h2>
           </div>
           {/* Search Form and Results Section */}
           <Search
