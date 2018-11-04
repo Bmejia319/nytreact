@@ -1,4 +1,4 @@
-# nytreact
+# nytreact app
 
 This is a React.js app that allows users to search for New York Times articles. 
 
